@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <title>
+        Home | {{ .Site.Params.author }}
+    </title>
+
+    {{ partial "head.html" . }}
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        {{ partial "header.html" . }}
+
+        <div class="content vertical">
+            <main class="main">
+                <div class="indexWrapper">
+                    <div>
+                        <h1 class="indexHeader">{{ .Site.Params.author }}</h1>
+                    </div>
+                    {{ partial "social.html" . }}
+                    <p><strong>Here is a random programming joke:</strong></p>
+                    <p id="quoteContainer">Loading funny quote...</p>
+                    <div class="guestbookSection">
+                        <a href="https://shanker.123guestbook.com/" target="_blank">
+                            <img width="100px;" alt="guestbook" src="https://bugswriter.com/images/guestbook.gif"/>
+                        </a>
+                        <br>
+                        now since you are here,<br>how about you
+                        <a href="https://shanker.123guestbook.com/" target="_blank">sign my guestbook</a>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+
+        {{ partial "footer.html" . }}
+    </div>
+
+    <!-- Add the script to fetch and display the funny quote -->
+    <script>
+        // Fetch data from the third-party API
+        fetch('https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit')
+            .then(response => response.json())
+            .then(data => {
+                // Update the HTML with the fetched quote
+                document.getElementById('quoteContainer').innerHTML = data.joke || data.setup + ' ' + data.delivery;
+            })
+            .catch(error => {
+                console.error('Error fetching funny quote:', error);
+            });
+    </script>
+
+    <!-- Add the style for the guestbook section -->
+    <style>
+        .guestbookSection {
+            margin-top: 350px; /* Add 20 pixels of margin on the top side */
+        }
+    </style>
+
+</body>
+
+</html>
