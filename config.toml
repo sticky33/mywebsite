@@ -1,0 +1,48 @@
+baseURL = "shankerbmahid.xyz"
+languageCode = "en-us"
+title = "shanker's Dev Log"
+
+theme = "hugo-theme-nightfall"
+
+[params]
+author = "Shanker B Mahid"
+user = "hello"
+hostname = "shankerbmahid.xyz"
+
+[[params.social]]
+key = 3
+name = "GitHub"
+url = "https://github.com/sticky33"
+
+[[params.social]]
+key = 4
+name = "Linkedin"
+url = "https://www.linkedin.com/in/shanker-b-mahid-abb970157/"
+
+[[params.social]]
+key = 2
+name = "Twitter"
+url = "https://twitter.com/shanker_web3"
+
+[[params.social]]
+key = 1
+name = "My LinkTree"
+url = "https://shankerbmahid.xyz/linktree/"
+
+
+[menu]
+    [[menu.header]]
+    name = "Contact-Me"
+    weight = 0
+    url = "/contact"
+   [[menu.header]]
+    name = "Blog"
+    weight = 1
+    url = "/posts"
+    [[menu.header]]
+    name = "About-Me"
+    weight = 2
+    url = "/about"
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "rss"

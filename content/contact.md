@@ -1,0 +1,42 @@
++++
+title = "Contact Me"
+description = "Contact information for our website"
++++
+
+
+
+- Email: [shankerbmahid1@gmail.com](mailto:shankerbmahid1@gmail.com) (Working on my own email server. Find my GPG key Below)
+- IRC: shanker @ libera.chat
+- Discord: Sticky#0429
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQINBGQ6syUBEAC5ppZbzzyKXBsYmZi8zwhCgwrb5bjbfuNre0tLoeRiFAY5CEzb
+f7OVBShfcgbTrB4zB/NzC5dZrIRciNplt+FNDxIMUF0zSI9iM4SYA6jrJ6/I7AQP
+PKPt8Tca8opFjWizWAy4T6KFYHJM5zm3TevH5GC2qv5JpmxZwmM/iw9GtTJw+mzO
+GwawdjetpTn0oo+9w3lzj/w7SotUachm48YPTVuGdd/erLSPQ0DIUstw5rLV60h+
+NqFJgmgUIkbY1ffHLgtAzgEUlWk4XqlkJEZWiEUu7KFekjxTXINBI8/SfpiHdH32
+GCfSCX8hwT35ngbC3RcKmoLRzRvs/tMJCqYrtwEE2qoWFsjJtAZprFQ2jr7vHKUd
+25wZk5TzJByQB1sVEMsRAQZZMevCbotLe5rwkRKSckkjGtpg8iuGwOez5t1wKHKO
+uxa7xWQ8YOM5BypQ+/pTtK2JJuO1NpsH/krbtlx8X9OYIHuHuj4lqYV6/y41EPBR
+nCGSnRFc5+ApK5fQZgjoCA1Lxg53wgvG4YvJFd88W//MMuwGxmI4kiktxPeCJxWW
+HL1vLvusYsAstnIstQo7olX8bS51leV3wR0OWMWzqRPGSw7m5U7wo/DA8rtQvbl7
+8jYwOdGbGNmc5JDtYHFIl8Rr4NwEQAfLzpvPHfAWGhrp3ZhcAefTRxcPqQARAQAB
+tDBzaGFua2VyIGIgbWFoaWQgKGxvbCkgPHNoYW5rZXJibWFoaWQxQGdtYWlsLmNv
+bT6JAk4EEwEIADgWIQQm86ng9+YTB7rIBAmKs8YX4m96bgUCZDqzJQIbAwULCQgH
+AgYVCgkICwIEFgIDAQIeAQIXgAAKCRCKs8YX4m96bjKPD/9eKfBsFpFvtx7O/J51
+0EGWPJw71TyNouS5SgGziJDw5b8sAi7eEYEEBw6UziEQbRinY4uN1VNDCSIKN1Fv
+cn2cFNWjgw3orx8J1Hz86U4u59X2MAcU7HQ+W6/HaUcEeUjDHRxxJXwipvnQ1xEm
+73dBDLRAUmwmOSnapiZEnohBiiK3QSQMAcV2/gj+QkZ6xlOFRJI/jKTk4Mv0CjrN
+BtR3XBJf9KeIFvoov/jZyE8pbqDi/3STfYDAvGHMIUtV/u9T3VP827wrg16IJiEp
+zVnAptDceGkkBydpXQrNVX/ySTE4izUXqYT3TgNB14pZXFEs3D5QS2anfpzVOX99
+1etIrl0I76bpKOzyUj52PL05KB6jevxogHqltE1Ex0hyhVyYDE0CM44z1VCHorIp
+lFq88kVsjxM85QnNqWx4SJ7NbahMiRRLnhhSFKELLt2eU/uCmHrjy+yy/dkYCTDf
+wh0aMIKFjlEJZKGj7R94D8p0QpdsrZeLsiq1UrJ1ZrnWGKDHLmdq8njfJhGPsFm/
+eJgINaBb2RTFhFJYppqlIo3jTH5fcN9t5u0mX3XuHYaRvpWqJaL2/hKHodlWsK2l
+N/M0fkRIdL/DyBqzeeORoS80CkkE/mQoQ+UAAlSEJKd9ruA1ZHOzyKZhy7pVzu9P
+sU2PYBDaUVvFFoVD9lDENcyWyw==
+=mAGX
+-----END PGP PUBLIC KEY BLOCK-----
+```
