@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+Setting Up a Hugo Blog | Shanker B Mahid
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+<link rel="canonical" href="shankerbmahid.xyz/posts/my-first-post/" >
+<link href="/shankerbmahid.xyz/sass/main.min.edade1a6b5d26a86d4be830e647bf49d1e3e84136c10bc0846c75469fec12f83.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a href="shankerbmahid.xyz">
+                <span class="terminal">hello@shankerbmahid.xyz ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="shankerbmahid.xyz/shankerbmahid.xyz/posts" title="" >
+                        ~/Blog</a>
+                </li>
+                
+                <li>
+                    <a href="shankerbmahid.xyz/shankerbmahid.xyz/about" title="" >
+                        ~/About-Me</a>
+                </li>
+                
+                <li>
+                    <a href="shankerbmahid.xyz/shankerbmahid.xyz/contact" title="" >
+                        ~/Contact-Me</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Setting Up a Hugo Blog</h1>
+    <div>
+        <p>Hugo is a popular open-source static site generator written in Go (also known as Golang). It allows you to create fast and flexible websites, blogs, and other types of web content without the need for a dynamic server-side language or database. Hugo generates static HTML files that can be served directly by a web server, resulting in lightning-fast page load times and improved performance.</p>
+<h2 id="step-1-install-hugo">Step 1: Install Hugo</h2>
+<p>The first step is to install Hugo on your local machine. Hugo is available for Windows, macOS, and Linux platforms. You can download the latest version of Hugo from the official Hugo website at <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a>.</p>
+<p>Follow the installation instructions for your operating system to install Hugo.</p>
+<h2 id="step-2-create-a-new-hugo-site">Step 2: Create a New Hugo Site</h2>
+<p>Once Hugo is installed, you can create a new Hugo site by running the following command in your terminal or command prompt:</p>
+<p>This will create a new Hugo site in a directory named <code>myblog</code>. You can replace <code>myblog</code> with the name of your blog or website.</p>
+<h2 id="step-3-choose-a-hugo-theme">Step 3: Choose a Hugo Theme</h2>
+<p>Hugo provides a wide range of themes that you can use for your blog or website. You can choose a theme from the official Hugo theme directory at <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>. To install a Hugo theme, you can either download the theme manually and extract it into the <code>themes</code> directory of your Hugo site, or you can use the Hugo theme manager to install the theme directly.</p>
+<p>For example, to install the popular &ldquo;Ananke&rdquo; theme, you can run the following command in your terminal or command prompt:</p>
+<p>This will add the Ananke theme as a submodule in your Hugo site and set it as the default theme in your <code>config.toml</code> configuration file.</p>
+<pre tabindex="0"><code>cd myblog
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo &#39;theme = &#34;ananke&#34;&#39; &gt;&gt; config.toml
+</code></pre><h2 id="step-4-create-your-first-blog-post">Step 4: Create Your First Blog Post</h2>
+<p>Next, you can create your first blog post using Hugo&rsquo;s built-in command:</p>
+<p>This will create a new Markdown file for your first blog post in the <code>content/posts</code> directory of your Hugo site.</p>
+<p>You can edit the generated Markdown file to write your blog post using Markdown syntax. You can also add front matter to the top of the Markdown file to provide metadata for your blog post, such as title, date, author, etc.</p>
+<p>For example, a typical front matter for a blog post might look like this:</p>
+<pre tabindex="0"><code>---
+title: &#34;My First Blog Post&#34;
+date: 2023-04-18
+author: &#34;John Doe&#34;
+tags: [&#34;hugo&#34;, &#34;blogging&#34;]
+---
+</code></pre><h3 id="step-5-customize-your-blog">Step 5: Customize Your Blog</h3>
+<p>You can customize various aspects of your Hugo blog by modifying the config.toml configuration file in the root directory of your Hugo site. The configuration file allows you to set options such as the site title, description, language, theme, and more.</p>
+<p>You can also create custom layouts, partials, and CSS styles to customize the appearance of your blog. Hugo uses the Go template language for templating, so you may need to learn some basic Go template syntax to customize your blog&rsquo;s layout.</p>
+<p>Since you will be playing around with markdown here is a cheatsheet - <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code</a></p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    <nav>
+        <a href="https://landchad.net" target="_blank">
+          <img src="https://i.imgur.com/N3cevyM.gif" target="_blank" alt="landchad.net">
+        </a>
+        <a href="https://wiby.me" target="_blank">
+          <img src="https://i.imgur.com/mbkseEq.gif" target="_blank" alt="wiby.me">
+        </a>
+        <a href="https://sadgrl.online/" target="_blank">
+          <img src="https://i.imgur.com/yqxnpzo.gif">
+        </a>
+        <a href="https://nuange.neocities.org/" target="_blank">
+          <img src="https://i.imgur.com/9jSEO19.gif" alt="nuange.neocities.org">
+        </a>
+        <a href="http://www.hat.net/abs/noclick/" ><img src="http://www.hat.net/abs/gif/noclick.gif" alt="[Don't click here!]" ></a>
+      </nav><br>
+    © 2023 Shanker B Mahid,
+    <a href="https://creativecommons.org/licenses/by/4.0/" class="footerLink"><u>Creative Commons Attribution 4.0 International License</u></a>
+</footer>
+    </div>
+
+</body>
+
+</html>

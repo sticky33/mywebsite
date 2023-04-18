@@ -1,0 +1,110 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shanker&#39;s Dev Log</title>
+    <link>shankerbmahid.xyz/tags/hugo/</link>
+    <description>Recent content in hugo on shanker&#39;s Dev Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="shankerbmahid.xyz/tags/hugo/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up a Hugo Blog</title>
+      <link>shankerbmahid.xyz/posts/my-first-post/</link>
+      <pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>shankerbmahid.xyz/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hugo is a popular open-source static site generator written in Go (also known as Golang). It allows you to create fast and flexible websites, blogs, and other types of web content without the need for a dynamic server-side language or database. Hugo generates static HTML files that can be served directly by a web server, resulting in lightning-fast page load times and improved performance.&lt;/p&gt;
+&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h2&gt;
+&lt;p&gt;The first step is to install Hugo on your local machine. Hugo is available for Windows, macOS, and Linux platforms. You can download the latest version of Hugo from the official Hugo website at &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;https://gohugo.io/getting-started/installing/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Follow the installation instructions for your operating system to install Hugo.&lt;/p&gt;
+&lt;h2 id=&#34;step-2-create-a-new-hugo-site&#34;&gt;Step 2: Create a New Hugo Site&lt;/h2&gt;
+&lt;p&gt;Once Hugo is installed, you can create a new Hugo site by running the following command in your terminal or command prompt:&lt;/p&gt;
+&lt;p&gt;This will create a new Hugo site in a directory named &lt;code&gt;myblog&lt;/code&gt;. You can replace &lt;code&gt;myblog&lt;/code&gt; with the name of your blog or website.&lt;/p&gt;
+&lt;h2 id=&#34;step-3-choose-a-hugo-theme&#34;&gt;Step 3: Choose a Hugo Theme&lt;/h2&gt;
+&lt;p&gt;Hugo provides a wide range of themes that you can use for your blog or website. You can choose a theme from the official Hugo theme directory at &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;. To install a Hugo theme, you can either download the theme manually and extract it into the &lt;code&gt;themes&lt;/code&gt; directory of your Hugo site, or you can use the Hugo theme manager to install the theme directly.&lt;/p&gt;
+&lt;p&gt;For example, to install the popular &amp;ldquo;Ananke&amp;rdquo; theme, you can run the following command in your terminal or command prompt:&lt;/p&gt;
+&lt;p&gt;This will add the Ananke theme as a submodule in your Hugo site and set it as the default theme in your &lt;code&gt;config.toml&lt;/code&gt; configuration file.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd myblog
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo &amp;#39;theme = &amp;#34;ananke&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-4-create-your-first-blog-post&#34;&gt;Step 4: Create Your First Blog Post&lt;/h2&gt;
+&lt;p&gt;Next, you can create your first blog post using Hugo&amp;rsquo;s built-in command:&lt;/p&gt;
+&lt;p&gt;This will create a new Markdown file for your first blog post in the &lt;code&gt;content/posts&lt;/code&gt; directory of your Hugo site.&lt;/p&gt;
+&lt;p&gt;You can edit the generated Markdown file to write your blog post using Markdown syntax. You can also add front matter to the top of the Markdown file to provide metadata for your blog post, such as title, date, author, etc.&lt;/p&gt;
+&lt;p&gt;For example, a typical front matter for a blog post might look like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
+title: &amp;#34;My First Blog Post&amp;#34;
+date: 2023-04-18
+author: &amp;#34;John Doe&amp;#34;
+tags: [&amp;#34;hugo&amp;#34;, &amp;#34;blogging&amp;#34;]
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;step-5-customize-your-blog&#34;&gt;Step 5: Customize Your Blog&lt;/h3&gt;
+&lt;p&gt;You can customize various aspects of your Hugo blog by modifying the config.toml configuration file in the root directory of your Hugo site. The configuration file allows you to set options such as the site title, description, language, theme, and more.&lt;/p&gt;
+&lt;p&gt;You can also create custom layouts, partials, and CSS styles to customize the appearance of your blog. Hugo uses the Go template language for templating, so you may need to learn some basic Go template syntax to customize your blog&amp;rsquo;s layout.&lt;/p&gt;
+&lt;p&gt;Since you will be playing around with markdown here is a cheatsheet - &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code&#34;&gt;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>shankerbmahid.xyz/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>shankerbmahid.xyz/about/</guid>
+      <description>&lt;p&gt;Hi there! My name is [Your Name], and I&amp;rsquo;m a [Your Profession] based in [Your Location]. Welcome to my personal website!&lt;/p&gt;
+&lt;h2 id=&#34;background-me&#34;&gt;Background me&lt;/h2&gt;
+&lt;p&gt;I have [number] years of experience in [Your Field/Profession]. I&amp;rsquo;m passionate about [Your Interests or Specialization] and have worked on projects ranging from [Examples of Projects]. I hold a [Your Degree] from [Your University] and have obtained certifications in [Certifications, if any]. I&amp;rsquo;m constantly learning and improving my skills to stay up-to-date with the latest developments in [Your Field/Profession].&lt;/p&gt;
+&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
+&lt;p&gt;Aside from my professional work, I enjoy [Your Hobbies or Interests].&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>shankerbmahid.xyz/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>shankerbmahid.xyz/contact/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:shankerbmahid1@gmail.com&#34;&gt;shankerbmahid1@gmail.com&lt;/a&gt; (Working on my own email server. Find my GPG key Below)&lt;/li&gt;
+&lt;li&gt;IRC: shanker @ libera.chat&lt;/li&gt;
+&lt;li&gt;Discord: Sticky#0429&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQINBGQ6syUBEAC5ppZbzzyKXBsYmZi8zwhCgwrb5bjbfuNre0tLoeRiFAY5CEzb
+f7OVBShfcgbTrB4zB/NzC5dZrIRciNplt+FNDxIMUF0zSI9iM4SYA6jrJ6/I7AQP
+PKPt8Tca8opFjWizWAy4T6KFYHJM5zm3TevH5GC2qv5JpmxZwmM/iw9GtTJw+mzO
+GwawdjetpTn0oo+9w3lzj/w7SotUachm48YPTVuGdd/erLSPQ0DIUstw5rLV60h+
+NqFJgmgUIkbY1ffHLgtAzgEUlWk4XqlkJEZWiEUu7KFekjxTXINBI8/SfpiHdH32
+GCfSCX8hwT35ngbC3RcKmoLRzRvs/tMJCqYrtwEE2qoWFsjJtAZprFQ2jr7vHKUd
+25wZk5TzJByQB1sVEMsRAQZZMevCbotLe5rwkRKSckkjGtpg8iuGwOez5t1wKHKO
+uxa7xWQ8YOM5BypQ+/pTtK2JJuO1NpsH/krbtlx8X9OYIHuHuj4lqYV6/y41EPBR
+nCGSnRFc5+ApK5fQZgjoCA1Lxg53wgvG4YvJFd88W//MMuwGxmI4kiktxPeCJxWW
+HL1vLvusYsAstnIstQo7olX8bS51leV3wR0OWMWzqRPGSw7m5U7wo/DA8rtQvbl7
+8jYwOdGbGNmc5JDtYHFIl8Rr4NwEQAfLzpvPHfAWGhrp3ZhcAefTRxcPqQARAQAB
+tDBzaGFua2VyIGIgbWFoaWQgKGxvbCkgPHNoYW5rZXJibWFoaWQxQGdtYWlsLmNv
+bT6JAk4EEwEIADgWIQQm86ng9+YTB7rIBAmKs8YX4m96bgUCZDqzJQIbAwULCQgH
+AgYVCgkICwIEFgIDAQIeAQIXgAAKCRCKs8YX4m96bjKPD/9eKfBsFpFvtx7O/J51
+0EGWPJw71TyNouS5SgGziJDw5b8sAi7eEYEEBw6UziEQbRinY4uN1VNDCSIKN1Fv
+cn2cFNWjgw3orx8J1Hz86U4u59X2MAcU7HQ+W6/HaUcEeUjDHRxxJXwipvnQ1xEm
+73dBDLRAUmwmOSnapiZEnohBiiK3QSQMAcV2/gj+QkZ6xlOFRJI/jKTk4Mv0CjrN
+BtR3XBJf9KeIFvoov/jZyE8pbqDi/3STfYDAvGHMIUtV/u9T3VP827wrg16IJiEp
+zVnAptDceGkkBydpXQrNVX/ySTE4izUXqYT3TgNB14pZXFEs3D5QS2anfpzVOX99
+1etIrl0I76bpKOzyUj52PL05KB6jevxogHqltE1Ex0hyhVyYDE0CM44z1VCHorIp
+lFq88kVsjxM85QnNqWx4SJ7NbahMiRRLnhhSFKELLt2eU/uCmHrjy+yy/dkYCTDf
+wh0aMIKFjlEJZKGj7R94D8p0QpdsrZeLsiq1UrJ1ZrnWGKDHLmdq8njfJhGPsFm/
+eJgINaBb2RTFhFJYppqlIo3jTH5fcN9t5u0mX3XuHYaRvpWqJaL2/hKHodlWsK2l
+N/M0fkRIdL/DyBqzeeORoS80CkkE/mQoQ+UAAlSEJKd9ruA1ZHOzyKZhy7pVzu9P
+sU2PYBDaUVvFFoVD9lDENcyWyw==
+=mAGX
+-----END PGP PUBLIC KEY BLOCK-----
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
